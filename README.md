@@ -11,7 +11,9 @@
      - it should have the same 3s full screen intro
      - the rest of the time is free (can be static)
 
-2. In the `ìndex.html` file, line 10, change the movieId (string) value to the id of the expected movie. For example :
+2. In the `ìndex.html` file, line 10, change the movieId (string) value to the id of the expected movie.
+
+   - For example :
    ```
    const movieId = "318031"
    ```
