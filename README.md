@@ -13,7 +13,7 @@
     - it should have the same 3s full screen intro
     - the rest of the time is free (can be static)
 
-## 2- Movie Showtime settings
+## 2- Showtimes API settings
 
 *In the `ìndex.html` file, line 8, change the movieId (string) value to the id of the expected movie.*
 
@@ -51,7 +51,7 @@
     longitude: 4.083858,
     ```
     (For the incredible city of Roanne (42)
-    
+
   - Or any decimal value
 
   > ⚠️ Don't forget to switch it back after your test
