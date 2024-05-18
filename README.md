@@ -22,7 +22,7 @@
     const movieId = "318031"
     ```
 
-## 3. Check
+## 3- Check
 
 *Visually check the DOOH creative locally*
 
@@ -55,3 +55,11 @@
   - Or any decimal value
 
   > ⚠️ Don't forget to switch it back after your test
+
+# To do 
+
+- [x] 95% done
+- [ ] Create meaningful backup video for the example
+- [ ] Find way to generate QR Code without third party tool
+- [ ] Log errors & cause to be able to quickly (ex. GCP Pub/Sub + Datastudio ?)
+- [ ] Store geolocation in localstorage if it exists to avoid calling JAd's geoloc API uselessly
