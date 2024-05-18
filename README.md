@@ -14,6 +14,36 @@
 2. In the `ìndex.html` file, line 8, change the movieId (string) value to the id of the expected movie.
 
    - For example :
-        ```
-        const movieId = "318031"
-        ```
+     ```
+     const movieId = "318031"
+     ```
+
+3. To check the DOOH creative
+
+- Open `index.html` in a browser (ideally from VS Code's Live Server)
+- Open DevTools (right click > Inspect)
+- Click the desktop/mobile icon to active mobile device mode in the left upper corner of the DevTool window
+- At the top of the website window, in the field "Dimensions:" chose "Responsive"
+- Set the width to 1080 and the height to 1920
+
+4. To simulate another geolocation, edit the `/js/acgeo.js` at lines 13 & 14 :
+
+- Change :
+  ```
+  latitude: this.getResponseHeader("x-wb-lat"),
+  longitude: this.getResponseHeader("x-wb-lon"),
+  ```
+- To, for example :
+  ```
+  latitude: 47.142445,
+  longitude: -1.681401,
+  ```
+  (For the wonderful town of Bouaye (44)
+  ```
+  latitude: 46.035478,
+  longitude: 4.083858,
+  ```
+  (For the incredible city of Roanne (42)
+- Or any decimal value
+
+| ⚠️ Don't forget to switch it back after your test

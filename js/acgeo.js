@@ -10,8 +10,8 @@ async function getGeoloc() {
           resolve({
             ok: true,
             statusCode: xhttp.status,
-            latitude: this.getResponseHeader("x-wb-lat") /*47.142445 ou 46.035478*/,
-            longitude: this.getResponseHeader("x-wb-lon") /*-1.681401 ou 4.083858*/,
+            latitude: this.getResponseHeader("x-wb-lat"),
+            longitude: this.getResponseHeader("x-wb-lon"),
           });
         } else {
           resolve({
