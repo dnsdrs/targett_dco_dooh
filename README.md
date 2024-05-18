@@ -46,4 +46,4 @@
   (For the incredible city of Roanne (42)
 - Or any decimal value
 
-| ⚠️ Don't forget to switch it back after your test
+> ⚠️ Don't forget to switch it back after your test
