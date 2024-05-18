@@ -14,6 +14,6 @@
 2. In the `ìndex.html` file, line 10, change the movieId (string) value to the id of the expected movie.
 
    - For example :
-   ```
-   const movieId = "318031"
-   ```
+        ```
+        const movieId = "318031"
+        ```
