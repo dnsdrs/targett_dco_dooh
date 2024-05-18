@@ -11,7 +11,7 @@
 
     async function init() {
 
-      console.log("init");
+      // console.log("init");
       const videoElement = document.getElementById("videoElement");
       const dcoContent = document.getElementById("canvas_dco");
       const dynamicContent = document.getElementById("dynamic-content");
@@ -27,20 +27,19 @@
       - you should choose between the 2 option, if possible, based on testing the videos that are going to be used
       */
       videoElement.addEventListener("canplay", function() {
-        console.log("Video can play");
+        // console.log("Video can play");
         videoElement.play();
       });
 
       videoElement.addEventListener("error", function(event) {
-        console.log("Video error");
+        // console.log("Video error");
       });
 
       videoElement.addEventListener("ended", function() {
-        console.log("Video finished");
+        // console.log("Video finished");
       });
 
-      console.log('Loading video url');
-      const url = "http://unsecured.datahub.dev.displayce.com/live-feed/a7cd0acb-e338-4a4f-bc02-d4c0fa66ac72/status.json?access_token=1234567asdfgh";
+      // console.log('Loading video url');
       var {data, ok} = await getShowtimes(movieId)
       if (ok) {
         setDynamicElements(data)
@@ -49,10 +48,10 @@
       }
 
       function refreshDynamicElements(data, firstOrSecond, index) {
-        console.log(index, "/", data.length - 1)
+        // console.log(index, "/", data.length - 1)
         if (firstOrSecond === "first") {
           firstTheaterData = data[index]
-          console.log("refresh to first", firstTheaterData)
+          // console.log("refresh to first", firstTheaterData)
           firstTheater.innerHTML = `
           <div class="theater-text">
             <div class="theater-name">${firstTheaterData.theater.name}</div>
@@ -85,7 +84,7 @@
           `;
         } else if (firstOrSecond === "second") {
           secondTheaterData = data[index]
-          console.log("refresh to second", secondTheaterData)
+          // console.log("refresh to second", secondTheaterData)
           secondTheater.innerHTML = `
             <div class="theater-text">
               <div class="theater-name">${secondTheaterData.theater.name}</div>
