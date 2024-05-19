@@ -5,24 +5,23 @@ This is a POC of a DCO creative for the Displayce DSP
 Displayce is a DOOH DSP allowing its users to buy inventory on a number of Point of Diffusions (screens in public places)
 
 > [!TIP]
-> Definitions :
-> - POC : Proof of concept
-> - DCO : Dynamic creative optimisation
-> - DOOH : Digital out of home
-> - DSP : Demand Side Platform
+> - *POC:* Proof of concept
+> - *DCO:* Dynamic creative optimisation
+> - *DOOH:* Digital out of home
+> - *DSP:* Demand Side Platform
 
 # Displayce Specifications
 
-Technical specifications from Displayce are available here : https://helpdesk.displayce.com/fr/knowledge/cat%C3%A9gories/guide-de-la-dco-avec-displayce
+Technical specifications from Displayce are available here: https://helpdesk.displayce.com/fr/knowledge/cat%C3%A9gories/guide-de-la-dco-avec-displayce
 
 # Steps to adapt for another campaign
 
 ## 1- Videos specifications
 
-*Create 2 video background assets :*
+*Create 2 video background assets:*
 
   - Both should be 1080x1920
-  - `/assets/videos/template.mp4` is the video that is playing in the default case :
+  - `/assets/videos/template.mp4` is the video that is playing in the default case:
     - it should have an exactly 3s full screen intro
     - for the next (unlimited) period, the video should leave a 850px tall blank space for the showtimes, starting from the bottom
     - when the video is over, the screen could remain on. It will statically show the last frame of the video (don't leave it useless)
@@ -34,7 +33,7 @@ Technical specifications from Displayce are available here : https://helpdesk.di
 
 *In the `ìndex.html` file, line 8, change the movieId (string) value to the id of the expected movie.*
 
-  > *For example :*
+  > *For example:*
   > ```
   > const movieId = "318031"
   > ```
@@ -49,25 +48,25 @@ Technical specifications from Displayce are available here : https://helpdesk.di
   - At the top of the website window, in the field "Dimensions:" chose "Responsive"
   - Set the width to 1080 and the height to 1920
 
-*Simulate other geolocations, by editing the `/js/acgeo.js` at lines 13 & 14 :*
+*Simulate other geolocations, by editing the `/js/acgeo.js` at lines 13 & 14:*
 
 > [!CAUTION]
 > Don't forget to switch it back after your test
 
-  - Change :
+  - Change:
     ```
     latitude: this.getResponseHeader("x-wb-lat"),
     longitude: this.getResponseHeader("x-wb-lon"),
     ```
   - To any deciman value
-    For example :
-    > For the wonderful town of Bouaye (44) :
+    For example:
+    > For the wonderful town of Bouaye (44):
     > ```
     > latitude: 47.142445,
     > longitude: -1.681401,
     > ```
 
-    > For the incredible city of Roanne (42) :
+    > For the incredible city of Roanne (42):
     > ```
     > latitude: 46.035478,
     > longitude: 4.083858,
