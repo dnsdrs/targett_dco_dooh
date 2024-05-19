@@ -70,8 +70,8 @@ Technical specifications from Displayce are available here : https://helpdesk.di
     > longitude: 4.083858,
     > ```
 
-    > [!CAUTION]
-    > ⚠️ Don't forget to switch it back after your test
+> [!CAUTION]
+> ⚠️ Don't forget to switch it back after your test
 
 # To do 
 
