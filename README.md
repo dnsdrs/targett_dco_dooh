@@ -4,7 +4,7 @@ This is a POC of a DCO creative for the Displayce DSP
 
 Displayce is a DOOH DSP allowing its users to buy inventory on a number of Point of Diffusions (screens in public places)
 
-> [!TIP]
+> [!NOTE]
 > - **POC:** Proof of concept
 > - **DCO:** Dynamic creative optimisation
 > - **DOOH:** Digital out of home
@@ -20,16 +20,25 @@ Links to zip packages are broken in the documentation but an example package can
 
 ## 1- Videos specifications
 
-### Create 2 video background assets
+We will need two **mp4 videos** of the same **1080x1920 format**
 
-  - Both should be 1080x1920
-  - [`/assets/videos/template.mp4`](/assets/videos/template.mp4) is the video that is playing in the default case:
-    - it should have an exactly 3s full screen intro
-    - for the next (unlimited) period, the video should leave a 850px tall blank space for the showtimes, starting from the bottom
-    - when the video is over, the screen could remain on. It will statically show the last frame of the video (don't leave it useless)
-  - [`/assets/videos/backup.mp4`](/assets/videos/backup.mp4) is the video that is playing when an error prevents the showtimes to load
-    - it should have the same 3s full screen intro
-    - the rest of the time is free (can be static)
+### template.mp4
+
+- [`/assets/videos/template.mp4`](/assets/videos/template.mp4) is the video that is playing in the default case:
+- It should have an exactly 3s full screen intro
+- For the next (unlimited) period, the video should leave a 850px tall blank space for the showtimes, starting from the bottom
+
+### backup.mp4
+
+- [`/assets/videos/backup.mp4`](/assets/videos/backup.mp4) is the video that is playing when an error prevents the showtimes to load
+- It should have the same 3s full screen intro
+- The rest of the time is free (can be static)
+
+> [!TIP]
+> When the video is over, the screen will remain on. 
+> It will statically show the last frame of the video
+> Consider this last frame as a static image. 
+> Don't leave it black, design it appropriately
 
 ## 2- Showtimes API settings
 
