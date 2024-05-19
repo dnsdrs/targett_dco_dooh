@@ -57,17 +57,17 @@ Technical specifications from Displayce are available here : https://helpdesk.di
     longitude: this.getResponseHeader("x-wb-lon"),
     ```
   - To, for example :
-    ```
-    latitude: 47.142445,
-    longitude: -1.681401,
-    ```
-    (For the wonderful town of Bouaye (44)
+    > For the wonderful town of Bouaye (44)
+    > ```
+    > latitude: 47.142445,
+    > longitude: -1.681401,
+    > ```
 
-    ```
-    latitude: 46.035478,
-    longitude: 4.083858,
-    ```
-    (For the incredible city of Roanne (42)
+    > For the incredible city of Roanne (42)
+    > ```
+    > latitude: 46.035478,
+    > longitude: 4.083858,
+    > ```
 
   - Or any decimal value
 
