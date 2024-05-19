@@ -33,7 +33,7 @@ Links to zip packages are broken in the documentation but an example package can
 
 ## 2- Showtimes API settings
 
-*In the [`ìndex.html`](ìndex.html#L8) file, line 8, change the movieId (string) value to the id of the expected movie.*
+**Change the movieId (string) value to the id of the expected movie**, in the [`ìndex.html`](ìndex.html#L8) file, line 8:
 
   > **For example:**
   > ```
