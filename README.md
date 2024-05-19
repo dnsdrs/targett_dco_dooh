@@ -12,7 +12,9 @@ Displayce is a DOOH DSP allowing its users to buy inventory on a number of Point
 
 # Displayce Specifications
 
-Technical specifications from Displayce are available here: https://helpdesk.displayce.com/fr/knowledge/cat%C3%A9gories/guide-de-la-dco-avec-displayce
+Technical documentation from Displayce is available [here](https://helpdesk.displayce.com/fr/knowledge/cat%C3%A9gories/guide-de-la-dco-avec-displayce).
+Links to zip packages are broken in the documentation but an example package can be found [in this repo](sources/6409d1f2c56d7.zip)
+
 
 # Steps to adapt for another campaign
 
@@ -21,7 +23,7 @@ Technical specifications from Displayce are available here: https://helpdesk.dis
 *Create 2 video background assets:*
 
   - Both should be 1080x1920
-  - `/assets/videos/template.mp4` is the video that is playing in the default case:
+  - [`/assets/videos/template.mp4`](/assets/videos/template.mp4) is the video that is playing in the default case:
     - it should have an exactly 3s full screen intro
     - for the next (unlimited) period, the video should leave a 850px tall blank space for the showtimes, starting from the bottom
     - when the video is over, the screen could remain on. It will statically show the last frame of the video (don't leave it useless)
