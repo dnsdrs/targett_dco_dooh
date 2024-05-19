@@ -4,12 +4,12 @@ This is a POC of a DCO creative for the Displayce DSP
 
 Displayce is a DOOH DSP allowing its users to buy inventory on a number of Point of Diffusions (screens in public places)
 
-## Definitions :
-
-- POC : Proof of concept
-- DCO : Dynamic creative optimisation
-- DOOH : Digital out of home
-- DSP : Demand Side Platform
+> [!TIP]
+> Definitions :
+> - POC : Proof of concept
+> - DCO : Dynamic creative optimisation
+> - DOOH : Digital out of home
+> - DSP : Demand Side Platform
 
 # Displayce Specifications
 
@@ -34,10 +34,10 @@ Technical specifications from Displayce are available here : https://helpdesk.di
 
 *In the `ìndex.html` file, line 8, change the movieId (string) value to the id of the expected movie.*
 
-  - For example :
-    ```
-    const movieId = "318031"
-    ```
+  > *For example :*
+  > ```
+  > const movieId = "318031"
+  > ```
 
 ## 3- Check
 
@@ -50,6 +50,9 @@ Technical specifications from Displayce are available here : https://helpdesk.di
   - Set the width to 1080 and the height to 1920
 
 *Simulate other geolocations, by editing the `/js/acgeo.js` at lines 13 & 14 :*
+
+> [!CAUTION]
+> Don't forget to switch it back after your test
 
   - Change :
     ```
@@ -69,9 +72,6 @@ Technical specifications from Displayce are available here : https://helpdesk.di
     > latitude: 46.035478,
     > longitude: 4.083858,
     > ```
-
-> [!CAUTION]
-> ⚠️ Don't forget to switch it back after your test
 
 # To do 
 
