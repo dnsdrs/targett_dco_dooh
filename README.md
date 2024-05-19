@@ -27,13 +27,13 @@ Links to zip packages are broken in the documentation but an example package can
     - it should have an exactly 3s full screen intro
     - for the next (unlimited) period, the video should leave a 850px tall blank space for the showtimes, starting from the bottom
     - when the video is over, the screen could remain on. It will statically show the last frame of the video (don't leave it useless)
-  - `/assets/videos/backup.mp4` is the video that is playing when an error prevents the showtimes to load
+  - [`/assets/videos/backup.mp4`](/assets/videos/backup.mp4) is the video that is playing when an error prevents the showtimes to load
     - it should have the same 3s full screen intro
     - the rest of the time is free (can be static)
 
 ## 2- Showtimes API settings
 
-*In the `ìndex.html` file, line 8, change the movieId (string) value to the id of the expected movie.*
+*In the [`ìndex.html`](ìndex.html#L8) file, line 8, change the movieId (string) value to the id of the expected movie.*
 
   > *For example:*
   > ```
@@ -44,13 +44,13 @@ Links to zip packages are broken in the documentation but an example package can
 
 *Visually check the DOOH creative locally*
 
-  - Open `index.html` in a browser (ideally from VS Code's Live Server)
+  - Open [`index.html`](index.html) in a browser (ideally from VS Code's Live Server)
   - Open DevTools (right click > Inspect)
   - Click the desktop/mobile icon to active mobile device mode in the left upper corner of the DevTool window
   - At the top of the website window, in the field "Dimensions:" chose "Responsive"
   - Set the width to 1080 and the height to 1920
 
-*Simulate other geolocations, by editing the `/js/acgeo.js` at lines 13 & 14:*
+*Simulate other geolocations, by editing the [`/js/acgeo.js`](/js/acgeo.js#L13-L14) at lines 13 & 14:*
 
 > [!CAUTION]
 > Don't forget to switch it back after your test
