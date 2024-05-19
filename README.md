@@ -56,7 +56,8 @@ Technical specifications from Displayce are available here : https://helpdesk.di
     latitude: this.getResponseHeader("x-wb-lat"),
     longitude: this.getResponseHeader("x-wb-lon"),
     ```
-  - To, for example :
+  - To any deciman value
+    For example :
     > For the wonderful town of Bouaye (44) :
     > ```
     > latitude: 47.142445,
@@ -69,8 +70,7 @@ Technical specifications from Displayce are available here : https://helpdesk.di
     > longitude: 4.083858,
     > ```
 
-    Or to any decimal value
-
+    > [!CAUTION]
     > ⚠️ Don't forget to switch it back after your test
 
 # To do 
