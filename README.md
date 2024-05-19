@@ -77,5 +77,5 @@ Technical specifications from Displayce are available here: https://helpdesk.dis
 - [x] 95% done
 - [ ] Create meaningful backup video for the example
 - [ ] Find way to generate QR Code without third party tool
-- [ ] Log errors & cause to be able to quickly (ex. GCP Pub/Sub + Datastudio ?)
-- [ ] Store geolocation in localstorage if it exists to avoid calling JAd's geoloc API uselessly
+- [ ] Log errors & cause to be able to quickly identify and fix issues (ex. GCP Pub/Sub + Datastudio ?)
+- [ ] Store geolocation in localStorage. If value is present, will avoid calling JAd's geoloc API uselessly
