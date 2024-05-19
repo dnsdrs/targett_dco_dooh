@@ -1,3 +1,20 @@
+# Context
+
+This is a POC of a DCO creative for the Displayce DSP
+
+Displayce is a DOOH DSP allowing its users to buy inventory on a number of Point of Diffusions (screens in public places)
+
+## Definitions :
+
+- POC : Proof of concept
+- DCO : Dynamic creative optimisation
+- DOOH : Digital out of home
+- DSP : Demand Side Platform
+
+# Displayce Specifications
+
+Technical specifications from Displayce are available here : https://helpdesk.displayce.com/fr/knowledge/cat%C3%A9gories/guide-de-la-dco-avec-displayce
+
 # Steps to adapt for another campaign
 
 ## 1- Videos specifications
