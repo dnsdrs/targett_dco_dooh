@@ -20,7 +20,7 @@ Links to zip packages are broken in the documentation but an example package can
 
 ## 1- Videos specifications
 
-**Create 2 video background assets:**
+### Create 2 video background assets
 
   - Both should be 1080x1920
   - [`/assets/videos/template.mp4`](/assets/videos/template.mp4) is the video that is playing in the default case:
@@ -33,7 +33,9 @@ Links to zip packages are broken in the documentation but an example package can
 
 ## 2- Showtimes API settings
 
-**Change the movieId (string) value to the id of the expected movie**, in the [`ìndex.html`](ìndex.html#L8) file, line 8:
+### Change the movieId (string) value to the id of the expected movie
+
+The value to change is in the [`ìndex.html`](ìndex.html#L8) file, at line 8:
 
   > **For example:**
   > ```
@@ -42,7 +44,7 @@ Links to zip packages are broken in the documentation but an example package can
 
 ## 3- Check
 
-**Visually check the DOOH creative locally**
+### Visually check the DOOH creative locally
 
   - Open [`index.html`](index.html) in a browser (ideally from VS Code's Live Server)
   - Open DevTools (right click > Inspect)
@@ -50,7 +52,9 @@ Links to zip packages are broken in the documentation but an example package can
   - At the top of the website window, in the field "Dimensions:" chose "Responsive"
   - Set the width to 1080 and the height to 1920
 
-**Simulate other geolocations**, by editing the [`/js/acgeo.js`](/js/acgeo.js#L13-L14) at lines 13 & 14:
+### Simulate other geolocations
+
+Editing the [`/js/acgeo.js`](/js/acgeo.js#L13-L14) at lines 13 & 14:
 
 > [!CAUTION]
 > Don't forget to switch it back after your test
