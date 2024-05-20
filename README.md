@@ -102,6 +102,6 @@ Editing the [`/js/acgeo.js`](/js/acgeo.js#L13-L14) at lines 13 & 14:
 
 - [x] 95% done
 - [ ] Create meaningful backup video for the example
-- [ ] Find way to generate QR Code without third party tool
+- [x] Find way to generate QR Code without third party tool
 - [ ] Log errors & cause to be able to quickly identify and fix issues (ex. GCP Pub/Sub + Datastudio ?)
 - [ ] Store geolocation in localStorage. If value is present, will avoid calling JAd's geoloc API uselessly
