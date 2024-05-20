@@ -78,7 +78,7 @@ The value to change is in the [`ìndex.html`](ìndex.html#L8) file, at line 8:
 
 ### Simulate other geolocations
 
-Editing the [`/js/acgeo.js`](/js/acgeo.js#L13-L14) at lines 13 & 14:
+Edit the [`/js/acgeo.js`](/js/acgeo.js#L13-L14) at lines 13 & 14:
 
 > [!CAUTION]
 > Don't forget to switch it back after your test
