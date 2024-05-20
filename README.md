@@ -48,7 +48,6 @@ You can generate a QR code of the showtimes page using [this Google Colab Notebo
 Follow the tutorial below to run the script and retrieve the generated PNG to use in the video :
 
 <img alt="QR Code generator tutorial" src="/sources/QR Code generation.gif">
-![QR Code generator tutorial](/sources/QR Code generation.gif)
 
 ## 2- Showtimes API settings
 
