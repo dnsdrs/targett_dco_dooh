@@ -2,9 +2,9 @@
 
 This is a POC of a DCO creative for the Displayce DSP
 
+<div style="display: block; margin-left: auto; margin-right: auto; width: 30%;">
 <ins>Click on the thumnail below to play a preview the video:</ins>
-
-[![Click to play a preview the video](/sources/thumbnail.webp)](https://youtu.be/6hZJUEpEAQs)
+[![Click to play a preview the video](/sources/thumbnail.webp)](https://youtu.be/6hZJUEpEAQs)</div>
 
 Displayce is a DOOH DSP allowing its users to buy inventory on a number of Point of Diffusions (screens in public places)
 
