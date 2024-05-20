@@ -2,7 +2,7 @@
 
 This is a POC of a DCO creative for the Displayce DSP
 
-Click on the thumnail below to play a preview the video:
+<ins>Click on the thumnail below to play a preview the video:</ins>
 
 [![Click to play a preview the video](/sources/thumbnail.webp)](https://youtu.be/6hZJUEpEAQs)
 
