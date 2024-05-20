@@ -2,7 +2,8 @@
 
 This is a POC of a DCO creative for the Displayce DSP
 
-[![Watch the video](/sources/thumbnail.webp)](https://youtu.be/6hZJUEpEAQs)
+Click on the thumnail below to play a preview the video:
+[![Click to play a preview the video](/sources/thumbnail.webp)](https://youtu.be/6hZJUEpEAQs)
 
 Displayce is a DOOH DSP allowing its users to buy inventory on a number of Point of Diffusions (screens in public places)
 
@@ -66,11 +67,13 @@ The value to change is in the [`ìndex.html`](ìndex.html#L8) file, at line 8:
 
 ### Visually check the DOOH creative locally
 
-  - Open [`index.html`](index.html) in a browser (ideally from VS Code's Live Server)
+  - Open [`index.html`](index.html) in a browser (ideally with VS Code's Live Server extension)
   - Open DevTools (right click > Inspect)
-  - Click the desktop/mobile icon to active mobile device mode in the left upper corner of the DevTool window
-  - At the top of the website window, in the field "Dimensions:" chose "Responsive"
-  - Set the width to 1080 and the height to 1920
+  - Click the desktop/mobile icon to active mobile device mode in the left upper corner of the DevTool window (1)
+  - At the top of the website window, in the field "Dimensions:" chose "Responsive" (2)
+  - Set the width to 1080 (3) and the height to 1920 (4)
+
+<img alt="QR Code generator tutorial" src="/sources/preview.png">
 
 ### Simulate other geolocations
 
